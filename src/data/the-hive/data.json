@@ -1,0 +1,29 @@
+[
+  {
+    "image1": "images/the-hive/block2.png",
+    "image2": "images/the-hive/block3.jpg",
+    "image3": "images/the-hive/block4.jpg",
+    "image4": "images/the-hive/block5.png",
+    "modelAcorner": [
+      {
+        "a": "7.5m2 (+VAR) x 12 m",
+        "b": "LT 90.m2",
+        "c": "LB 137.m2",
+        "d": "3 Storey",
+        "e": "3 Full Bathroom",
+        "f": "Outdoor Al-Fresco",
+        "g": "Backyard"
+      }
+    ],
+    "modelBstandard": [
+      {
+        "a": "4.5m x 12 m",
+        "b": "LT 54 m",
+        "c": "LB 110 m",
+        "d": "3 Storey",
+        "e": "3 Full Bathroom",
+        "f": "Backyard"
+      }
+    ]
+  }
+]
