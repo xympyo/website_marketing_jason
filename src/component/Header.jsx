@@ -7,7 +7,7 @@ function Header() {
       <div className="flex flex-col justify-between md:flex-row pt-2 ms-8 me-8 mt-2">
         <div className="flex justify-center md:justify-start">
           <a
-            href=""
+            href="/"
             className="inline-flex md:flex-row justify-center md:justify-start items-center"
           >
             <img
@@ -19,23 +19,23 @@ function Header() {
           </a>
         </div>
         <div className="flex justify-between w-full md:w-1/3">
-          <a href="">
-            <p className="poppins-regular text-base md:text-xs text-white">
+          <a href="/park-serpong">
+            <p className="poppins-regular text-xs md:text-base text-white">
               Park Serpong
             </p>
           </a>
-          <a href="">
-            <p className="poppins-regular text-base md:text-xs text-white">
+          <a href="/the-hive">
+            <p className="poppins-regular text-xs md:text-base text-white">
               The Hive
             </p>
           </a>
-          <a href="">
-            <p className="poppins-regular text-base md:text-xs text-white">
+          <a href="/belmont-homes">
+            <p className="poppins-regular text-xs md:text-base text-white">
               Belmont
             </p>
           </a>
-          <a href="">
-            <p className="poppins-regular text-base md:text-xs text-white">
+          <a href="/bentley-homes">
+            <p className="poppins-regular text-xs md:text-base text-white">
               Bentley
             </p>
           </a>

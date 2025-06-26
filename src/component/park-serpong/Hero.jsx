@@ -1,6 +1,6 @@
 import React from "react";
-import block1 from "../assets/block1.png";
-import HeroData from "../data/HeroData.json";
+import block1 from "../../assets/park-serpong/block1.jpg";
+import HeroData from "../../data/HeroData.json";
 
 function Hero() {
   return (
@@ -10,18 +10,18 @@ function Hero() {
           <div className="w-full h-full bg-linear-to-t from-black/90 to-black/30 absolute"></div>
           <img
             src={block1}
-            className="md:w-full md:h-auto h-[50vh] w-full object-cover"
+            className="md:w-full md:h-auto h-[50vh] w-full bg-cover object-cover"
             alt="Hero Data"
           />
           <p
-            className="poppins-bold absolute md:text-4xl text-xs text-white left-2 md:left-4"
+            className="poppins-thin tracking-widest absolute md:text-5xl text-xs text-white left-2 md:left-4"
             style={{
               top: "50%",
               left: "50%",
               transform: "translate(-50%,-50%)",
             }}
           >
-            Sales In House Lippo Karawaci
+            PARK SERPONG
           </p>
           <div className="absolute bottom-4 z-[2000] left-4">
             <div className="flex flex-row justify-center">

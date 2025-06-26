@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Park Serpong",
+    "image": "/images/park-serpong/block31.png",
+    "deskripsi": "Park Serpong adalah pemukiman terbaru dari Lippo Group yang dilengkapi dengan fasilitas dan kenyamanan bagi keluarga Anda. Lokasi yang strategis memberi anda mobilitas dalam melakukan kegiatan anda sehari-hari.",
+    "type": [
+      {
+        "type": "T3.3",
+        "full": "3.3 x 11.5",
+        "lb": "LB 75.1 m²",
+        "lt": "LT 38 m²",
+        "a": "3 Bedroom",
+        "b": "3 Ensuite Bath"
+      }
+    ]
+  },
+  {
+    "title": "Park Serpong",
+    "image": "/images/park-serpong/block32.png",
+    "deskripsi": "Park Serpong adalah pemukiman terbaru dari Lippo Group yang dilengkapi dengan fasilitas dan kenyamanan bagi keluarga Anda. Lokasi yang strategis memberi anda mobilitas dalam melakukan kegiatan anda sehari-hari.",
+    "type": [
+      {
+        "type": "T3.3B",
+        "full": "3.3 x 12.5",
+        "lb": "LB 75.9 m²",
+        "lt": "LT 41.3 m²",
+        "a": "3 Bedroom",
+        "b": "3 Ensuite Bath"
+      }
+    ]
+  },
+  {
+    "title": "Park Serpong",
+    "image": "/images/park-serpong/block33.png",
+    "deskripsi": "Park Serpong adalah pemukiman terbaru dari Lippo Group yang dilengkapi dengan fasilitas dan kenyamanan bagi keluarga Anda. Lokasi yang strategis memberi anda mobilitas dalam melakukan kegiatan anda sehari-hari.",
+    "type": [
+      {
+        "type": "T3.6",
+        "full": "3.6 x 11.5",
+        "lb": "LB 77.4 m²",
+        "lt": "LT 41.4 m²",
+        "a": "3 Bedroom",
+        "b": "3 Ensuite Bath"
+      }
+    ]
+  },
+  {
+    "title": "Park Serpong",
+    "image": "/images/park-serpong/block34.png",
+    "deskripsi": "Park Serpong adalah pemukiman terbaru dari Lippo Group yang dilengkapi dengan fasilitas dan kenyamanan bagi keluarga Anda. Lokasi yang strategis memberi anda mobilitas dalam melakukan kegiatan anda sehari-hari.",
+    "type": [
+      {
+        "type": "T3.6B",
+        "full": "3.6 x 12.5",
+        "lb": "LB 82.8 m²",
+        "lt": "LT 45 m²",
+        "a": "3 Bedroom",
+        "b": "3 Ensuite Bath"
+      }
+    ]
+  }
+]

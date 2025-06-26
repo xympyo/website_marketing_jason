@@ -1,14 +1,15 @@
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import Header from "./component/Header";
-import Hero from "./component/Hero";
-import HeroContent from "./component/HeroContent";
+import HeroLayout from "./HeroLayout";
+import ParkSerpongLayout from "./ParkSerpongLayout";
 
 function App() {
   return (
     <>
-      <Header />
-      <Hero />
-      <HeroContent />
+      <Routes>
+        <Route path="/" element={<HeroLayout />} />
+        <Route path="/park-serpong" element={<ParkSerpongLayout />} />
+      </Routes>
     </>
   );
 }

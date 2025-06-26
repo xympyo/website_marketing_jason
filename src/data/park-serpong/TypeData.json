@@ -1,0 +1,38 @@
+[
+  {
+    "lb": "LB 70.6m²",
+    "lt": "LT 62.5m²",
+    "a": "2 Storey",
+    "b": "3 Bedroom",
+    "c": "1 Powder Room",
+    "d": "Large Backyard",
+    "e": "2 Cars Carport"
+  },
+  {
+    "lb": "LB 87.8m2²",
+    "lt": "LT 62.5m²",
+    "a": "3 Storey",
+    "b": "4 Bedroom",
+    "c": "1 Shared Bedroom",
+    "d": "1 Powder Room",
+    "e": "1 Balcony (3rd Floor)",
+    "f": "Large Backyard",
+    "g": "2 Cars Carport"
+  },
+  {
+    "lb": "LB 50.2m²",
+    "lt": "LT 42.9m²",
+    "a": "2 Storey",
+    "b": "2 Bedroom",
+    "c": "2 Ensuite Bathroom",
+    "e": "1 Car Carport"
+  },
+  {
+    "lb": "LB 87.8m²",
+    "lt": "LT 62.5m²",
+    "a": "1 Bedroom",
+    "b": "1 Ensuite Bath",
+    "c": "1 Powder Room",
+    "d": "1 Carport Backyard"
+  }
+]
