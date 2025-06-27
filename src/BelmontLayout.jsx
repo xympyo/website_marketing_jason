@@ -5,6 +5,7 @@ import HeroContent from "./component/belmont-house/HeroContent";
 import Footer from "./component/Footer";
 import WhatsAppButton from "./component/WhatsAppButton";
 import CTAMore from "./component/belmont-house/CTAMore";
+import Maps from "./component/Maps";
 
 function BelmontLayout() {
   return (
@@ -13,6 +14,7 @@ function BelmontLayout() {
       <Header />
       <HeroContent />
       <CTAMore />
+      <Maps />
       <WhatsAppButton />
       <Footer />
     </div>

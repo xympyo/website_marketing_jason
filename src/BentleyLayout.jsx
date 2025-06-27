@@ -5,6 +5,7 @@ import HeroContent from "./component/bentley-house/HeroContent";
 import Footer from "./component/Footer";
 import WhatsAppButton from "./component/WhatsAppButton";
 import CTAMore from "./component/bentley-house/CTAMore";
+import Maps from "./component/Maps";
 
 function BentleyLayout() {
   return (
@@ -13,6 +14,7 @@ function BentleyLayout() {
       <Header />
       <HeroContent />
       <CTAMore />
+      <Maps />
       <WhatsAppButton />
       <Footer />
     </div>

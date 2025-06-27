@@ -5,6 +5,7 @@ import HeroContent from "./component/the-hive/HeroContent";
 import WhatsAppButton from "./component/WhatsAppButton";
 import Footer from "./component/Footer";
 import CTAMore from "./component/the-hive/CTAMore";
+import Maps from "./component/Maps";
 
 function TheHiveLayout() {
   return (
@@ -13,6 +14,7 @@ function TheHiveLayout() {
       <Hero />
       <HeroContent />
       <CTAMore />
+      <Maps />
       <WhatsAppButton />
       <Footer />
     </div>

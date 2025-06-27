@@ -5,6 +5,7 @@ import WhatsAppButton from "./component/WhatsAppButton";
 import HeroContent from "./component/park-serpong/HeroContent";
 import Footer from "./component/Footer";
 import CTAMore from "./component/park-serpong/CTAMore";
+import Maps from "./component/Maps";
 
 function ParkSerpongLayout() {
   return (
@@ -13,6 +14,7 @@ function ParkSerpongLayout() {
       <Hero />
       <HeroContent />
       <CTAMore />
+      <Maps />
       <WhatsAppButton />
       <Footer />
     </div>
