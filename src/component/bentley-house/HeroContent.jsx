@@ -139,10 +139,10 @@ function HeroContent() {
           </div>
         </div>
         <div className="flex flex-col ms-8 me-8 mt-4">
-          <p className="poppins-light text-sm md:text-lg text-justify text-[#0a0a0a]">
+          <p className="poppins-light text-sm md:text-lg text-center text-[#0a0a0a]">
             {data[0].deskripsi2}
           </p>
-          <p className="poppins-light text-sm md:text-lg text-left mt-2 text-[#0a0a0a]">
+          <p className="poppins-light text-sm md:text-lg text-center mt-2 text-[#0a0a0a]">
             {data[0].deskripsi3}
           </p>
         </div>

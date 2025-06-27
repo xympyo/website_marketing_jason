@@ -119,30 +119,30 @@ function HeroContent() {
           src={ParkSerpongData[4].image}
           alt={ParkSerpongData[4].title}
         />
-        <div className="flex flex-col md:flex-row">
-          <div className="flex justify-between ms-8 me-8 mt-4">
+        <div className="flex flex-col ms-0 me-0 md:ms-40 md:me-40">
+          <div className="flex justify-around ms-8 me-8 mt-4">
             <p className="poppins-reguler text-xs md:text-base poppins-medium text-[#0a0a0a]">
-              • {a.lb}
+              {a.lb}
             </p>
             <p className="poppins-reguler text-xs md:text-base poppins-medium text-[#0a0a0a]">
-              • {a.lt}
+              {a.lt}
             </p>
             <p className="poppins-reguler text-xs md:text-base poppins-medium text-[#0a0a0a]">
-              • {a.a}
+              {a.a}
             </p>
           </div>
           <div className="flex justify-between ms-8 me-8 mt-4">
             <p className="poppins-reguler text-xs md:text-base poppins-medium text-[#0a0a0a]">
-              • {a.b}
+              {a.b}
             </p>
             <p className="poppins-reguler text-xs md:text-base poppins-medium text-[#0a0a0a]">
-              • {a.c}
+              {a.c}
             </p>
             <p className="poppins-reguler text-xs md:text-base poppins-medium text-[#0a0a0a]">
-              • {a.d}
+              {a.d}
             </p>
             <p className="poppins-reguler text-xs md:text-base poppins-medium text-[#0a0a0a]">
-              • {a.e}
+              {a.e}
             </p>
           </div>
         </div>
@@ -172,36 +172,36 @@ function HeroContent() {
           src={ParkSerpongData[7].image}
           alt={ParkSerpongData[7].title}
         />
-        <div className="flex flex-col md:flex-row">
-          <div className="flex justify-between ms-8 me-8 mt-4">
+        <div className="flex flex-col ms-0 me-0 md:ms-40 md:me-40">
+          <div className="flex justify-around ms-8 me-8 mt-4">
             <p className="poppins-reguler text-xs md:text-base poppins-medium text-[#0a0a0a]">
-              • {b.lb}
+              {b.lb}
             </p>
             <p className="poppins-reguler text-xs md:text-base poppins-medium text-[#0a0a0a]">
-              • {b.lt}
+              {b.lt}
             </p>
             <p className="poppins-reguler text-xs md:text-base poppins-medium text-[#0a0a0a]">
-              • {b.a}
+              {b.a}
             </p>
             <p className="poppins-reguler text-xs md:text-base poppins-medium text-[#0a0a0a]">
-              • {b.b}
+              {b.b}
             </p>
           </div>
           <div className="flex justify-between ms-8 me-8 mt-4">
             <p className="poppins-reguler text-xs md:text-base poppins-medium text-[#0a0a0a]">
-              • {b.c}
+              {b.c}
             </p>
             <p className="poppins-reguler text-xs md:text-base poppins-medium text-[#0a0a0a]">
-              • {b.d}
+              {b.d}
             </p>
             <p className="poppins-reguler text-xs md:text-base poppins-medium text-[#0a0a0a]">
-              • {b.e}
+              {b.e}
             </p>
             <p className="poppins-reguler text-xs md:text-base poppins-medium text-[#0a0a0a]">
-              • {b.f}
+              {b.f}
             </p>
             <p className="poppins-reguler text-xs md:text-base poppins-medium text-[#0a0a0a]">
-              • {b.g}
+              {b.g}
             </p>
           </div>
         </div>
@@ -231,27 +231,27 @@ function HeroContent() {
           src={ParkSerpongData[10].image}
           alt={ParkSerpongData[10].title}
         />
-        <div className="flex flex-col md:flex-row">
-          <div className="flex justify-between ms-8 me-8 mt-4">
+        <div className="flex flex-col ms-0 me-0 md:ms-40 md:me-40">
+          <div className="flex justify-around ms-8 me-8 mt-4">
             <p className="poppins-reguler md:text-base text-xs poppins-medium text-[#0a0a0a]">
-              • {c.lb}
+              {c.lb}
             </p>
             <p className="poppins-reguler md:text-base text-xs poppins-medium text-[#0a0a0a]">
-              • {c.lt}
+              {c.lt}
             </p>
             <p className="poppins-reguler md:text-base text-xs poppins-medium text-[#0a0a0a]">
-              • {c.a}
+              {c.a}
             </p>
           </div>
           <div className="flex justify-between ms-8 me-8 mt-4">
             <p className="poppins-reguler md:text-base text-xs poppins-medium text-[#0a0a0a]">
-              • {c.b}
+              {c.b}
             </p>
             <p className="poppins-reguler md:text-base text-xs poppins-medium text-[#0a0a0a]">
-              • {c.c}
+              {c.c}
             </p>
             <p className="poppins-reguler md:text-base text-xs poppins-medium text-[#0a0a0a]">
-              • {c.d}
+              {c.d}
             </p>
           </div>
         </div>
@@ -281,27 +281,27 @@ function HeroContent() {
           src={ParkSerpongData[13].image}
           alt={ParkSerpongData[13].title}
         />
-        <div className="flex flex-col">
-          <div className="flex justify-between ms-8 me-8 mt-4">
+        <div className="flex flex-col ms-0 me-0 md:ms-40 md:me-40">
+          <div className="flex justify-around ms-8 me-8 mt-4">
             <p className="poppins-reguler md:text-base text-xs poppins-medium text-[#0a0a0a]">
-              • {d.lb}
+              {d.lb}
             </p>
             <p className="poppins-reguler md:text-base text-xs poppins-medium text-[#0a0a0a]">
-              • {d.lt}
+              {d.lt}
             </p>
             <p className="poppins-reguler md:text-base text-xs poppins-medium text-[#0a0a0a]">
-              • {d.a}
+              {d.a}
             </p>
           </div>
           <div className="flex justify-between ms-8 me-8 mt-4">
             <p className="poppins-reguler md:text-base text-xs poppins-medium text-[#0a0a0a]">
-              • {d.b}
+              {d.b}
             </p>
             <p className="poppins-reguler md:text-base text-xs poppins-medium text-[#0a0a0a]">
-              • {d.c}
+              {d.c}
             </p>
             <p className="poppins-reguler md:text-base text-xs poppins-medium text-[#0a0a0a]">
-              • {d.d}
+              {d.d}
             </p>
           </div>
         </div>
