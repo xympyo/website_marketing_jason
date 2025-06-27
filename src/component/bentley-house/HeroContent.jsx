@@ -154,13 +154,13 @@ function HeroContent() {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
             <img
-              src={data[0].image4}
+              src={data[0].image5}
               className="rounded-none md:rounded-lg cursor-pointer"
               alt="Belmont Homes"
               onClick={() => openImagePopup(data[0].image4)}
             />
             <img
-              src={data[0].image5}
+              src={data[0].image4}
               className="rounded-none md:rounded-lg cursor-pointer"
               alt="Belmont Homes"
               onClick={() => openImagePopup(data[0].image5)}

@@ -137,7 +137,7 @@ function HeroContent() {
         </p>
       </div>
       <div className="ms-8 me-8 mt-12">
-        <div className="grid grid-cols-12 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-12 gap-4">
           <div
             className={`transition-all duration-500 ease-in-out ${
               isImage2Clicked ? "col-span-7" : "col-span-6"
@@ -156,32 +156,59 @@ function HeroContent() {
                 : "col-span-6 flex align-middle self-center flex-col"
             }`}
           >
-            <p className="poppins-medium text-[#0a0a0a] text-xs md:text-lg">
-              {data[0].modelAcorner[0].a}
-            </p>
-            <p className="poppins-medium text-[#0a0a0a] text-xs md:text-lg">
-              {data[0].modelAcorner[0].b}
-            </p>
-            <p className="poppins-medium text-[#0a0a0a] text-xs md:text-lg">
-              {data[0].modelAcorner[0].c}
-            </p>
-            <p className="poppins-medium text-[#0a0a0a] text-xs md:text-lg">
-              {data[0].modelAcorner[0].d}
-            </p>
-            <p className="poppins-medium text-[#0a0a0a] text-xs md:text-lg">
-              {data[0].modelAcorner[0].e}
-            </p>
-            <p className="poppins-medium text-[#0a0a0a] text-xs md:text-lg">
-              {data[0].modelAcorner[0].f}
-            </p>
-            <p className="poppins-medium text-[#0a0a0a] text-xs md:text-lg">
-              {data[0].modelAcorner[0].g}
-            </p>
+            <div className="flex">
+              <p className="poppins-reguler text-[#0a0a0a] text-sm md:text-lg text-left mb-4">
+                Unit "Hive CORNER typical" merupakan ruko 3 lantai yang menonjol
+                di THE HIVE Boulevard, menawarkan dimensi lahan dan bangunan
+                yang lebih luas (LT 90 m², LB 137 m²) dibandingkan tipe standar.
+                Keunggulan utamanya terletak pada posisi sudut yang memberikan
+                visibilitas ganda dan aksesibilitas maksimal untuk bisnis.
+              </p>
+            </div>
+            <div className="ms-8 me-8">
+              <ol className="list-disc">
+                <li>
+                  <p className="poppins-medium text-[#0a0a0a] text-xs md:text-lg">
+                    {data[0].modelAcorner[0].a}
+                  </p>
+                </li>
+                <li>
+                  <p className="poppins-medium text-[#0a0a0a] text-xs md:text-lg">
+                    {data[0].modelAcorner[0].b}
+                  </p>
+                </li>
+                <li>
+                  <p className="poppins-medium text-[#0a0a0a] text-xs md:text-lg">
+                    {data[0].modelAcorner[0].c}
+                  </p>
+                </li>
+                <li>
+                  <p className="poppins-medium text-[#0a0a0a] text-xs md:text-lg">
+                    {data[0].modelAcorner[0].d}
+                  </p>
+                </li>
+                <li>
+                  <p className="poppins-medium text-[#0a0a0a] text-xs md:text-lg">
+                    {data[0].modelAcorner[0].e}
+                  </p>
+                </li>
+                <li>
+                  <p className="poppins-medium text-[#0a0a0a] text-xs md:text-lg">
+                    {data[0].modelAcorner[0].f}
+                  </p>
+                </li>
+                <li>
+                  <p className="poppins-medium text-[#0a0a0a] text-xs md:text-lg">
+                    {data[0].modelAcorner[0].g}
+                  </p>
+                </li>
+              </ol>
+            </div>
           </div>
         </div>
       </div>
       <div className="ms-8 me-8 mt-12">
-        <div className="grid grid-cols-12 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-12 gap-4">
           <div
             className={`transition-all duration-500 ease-in-out ${
               isImage3Clicked ? "col-span-7" : "col-span-6"
@@ -200,24 +227,50 @@ function HeroContent() {
                 : "col-span-6 flex align-middle self-center flex-col"
             }`}
           >
-            <p className="poppins-medium text-[#0a0a0a] text-xs md:text-lg">
-              {data[0].modelBstandard[0].a}
-            </p>
-            <p className="poppins-medium text-[#0a0a0a] text-xs md:text-lg">
-              {data[0].modelBstandard[0].b}
-            </p>
-            <p className="poppins-medium text-[#0a0a0a] text-xs md:text-lg">
-              {data[0].modelBstandard[0].c}
-            </p>
-            <p className="poppins-medium text-[#0a0a0a] text-xs md:text-lg">
-              {data[0].modelBstandard[0].d}
-            </p>
-            <p className="poppins-medium text-[#0a0a0a] text-xs md:text-lg">
-              {data[0].modelBstandard[0].e}
-            </p>
-            <p className="poppins-medium text-[#0a0a0a] text-xs md:text-lg">
-              {data[0].modelBstandard[0].f}
-            </p>
+            <div className="flex">
+              <p className="poppins-reguler text-[#0a0a0a] text-sm md:text-lg text-left mb-4">
+                Unit "HIVE Standard typical" menawarkan ruko 3 lantai
+                multifungsi (Toko, Kantor, Rumah) dengan konsep "Multiple Key"
+                yang inovatif, menyediakan akses dan utilitas terpisah per
+                lantai. Tipe standar (4.5x12m, LB 110m²) dilengkapi 3 kamar
+                mandi, backyard, dan pilihan layout lantai dasar, memaksimalkan
+                fleksibilitas untuk bisnis dan gaya hidup terintegrasi.
+              </p>
+            </div>
+            <div className="ms-8 me-8">
+              <ol className="list-disc">
+                <li>
+                  <p className="poppins-medium text-[#0a0a0a] text-xs md:text-lg">
+                    {data[0].modelBstandard[0].a}
+                  </p>
+                </li>
+                <li>
+                  <p className="poppins-medium text-[#0a0a0a] text-xs md:text-lg">
+                    {data[0].modelBstandard[0].b}
+                  </p>
+                </li>
+                <li>
+                  <p className="poppins-medium text-[#0a0a0a] text-xs md:text-lg">
+                    {data[0].modelBstandard[0].c}
+                  </p>
+                </li>
+                <li>
+                  <p className="poppins-medium text-[#0a0a0a] text-xs md:text-lg">
+                    {data[0].modelBstandard[0].d}
+                  </p>
+                </li>
+                <li>
+                  <p className="poppins-medium text-[#0a0a0a] text-xs md:text-lg">
+                    {data[0].modelBstandard[0].e}
+                  </p>
+                </li>
+                <li>
+                  <p className="poppins-medium text-[#0a0a0a] text-xs md:text-lg">
+                    {data[0].modelBstandard[0].f}
+                  </p>
+                </li>
+              </ol>
+            </div>
           </div>
         </div>
       </div>
