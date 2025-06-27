@@ -3,6 +3,7 @@ import Hero from "./component/park-serpong/Hero";
 import Header from "./component/Header";
 import WhatsAppButton from "./component/WhatsAppButton";
 import HeroContent from "./component/park-serpong/HeroContent";
+import Footer from "./component/Footer";
 
 function ParkSerpongLayout() {
   return (
@@ -11,6 +12,7 @@ function ParkSerpongLayout() {
       <Hero />
       <HeroContent />
       <WhatsAppButton />
+      <Footer />
     </div>
   );
 }

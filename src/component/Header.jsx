@@ -18,7 +18,7 @@ function Header() {
             <p className="poppins-semibold ms-2 text-base text-white">Home</p>
           </a>
         </div>
-        <div className="flex justify-between w-full md:w-1/3">
+        <div className="flex justify-between w-full md:w-1/2">
           <a href="/park-serpong">
             <p className="poppins-regular text-xs md:text-base text-white">
               Park Serpong
@@ -26,17 +26,17 @@ function Header() {
           </a>
           <a href="/the-hive">
             <p className="poppins-regular text-xs md:text-base text-white">
-              The Hive
+              THE HIVE
             </p>
           </a>
           <a href="/belmont-homes">
             <p className="poppins-regular text-xs md:text-base text-white">
-              Belmont
+              Belmont Homes
             </p>
           </a>
           <a href="/bentley-homes">
             <p className="poppins-regular text-xs md:text-base text-white">
-              Bentley
+              Bentley Homes
             </p>
           </a>
         </div>

@@ -1,0 +1,33 @@
+[
+  {
+    "image1": "images/belmont/block2.jpg",
+    "image2": "images/belmont/block3.jpg",
+    "image3": "images/belmont/block41.jpg",
+    "image4": "images/belmont/block42.jpg",
+    "image5": "images/belmont/block5.jpg",
+    "deskripsi1": "Belmont Homes menawarkan pengalaman Privilege Living di sebuah kawasan terpadu sepenuhnya, di mana segala kebutuhan Anda tersedia tepat di depan pintu. Nikmati kesempatan untuk tinggal di dekat fasilitas kelas dunia seperti Imperial Klub Golf, Sekolah Pelita Harapan (SPH), Universitas Pelita Harapan (UPH), Rumah Sakit Siloam, Hotel Aryaduta Lippo Village, Maxx Box, Citywalk Elvee, Supermal Karawaci, dan masih banyak lagi. Dikelilingi oleh taman hijau yang asri, didukung oleh sistem keamanan 24 jam, dan mudah diakses melalui jalan tol utama.",
+    "deskripsi2": "Hunian ini mengusung konsep kemewahan modern yang menyatu dengan kenyamanan fungsional, menjadikannya tempat tinggal ideal bagi mereka yang menghargai gaya hidup elegan namun tetap hangat dan praktis untuk keluarga. Keunikan terletak pada perpaduan ruang dalam dan luar, desain interior premium, serta tata letak yang dirancang untuk menciptakan pengalaman tinggal yang eksklusif namun ramah keluarga.",
+    "deskripsi3": "UNIT RESERVATION & PROPERTY VALUE",
+    "deskripsi4": "SPECIFICATION & UNIT PREVIEW",
+    "carousel": [
+      {
+        "image": "images/belmont/carousel/1.jpg"
+      },
+      {
+        "image": "images/belmont/carousel/2.jpg"
+      },
+      {
+        "image": "images/belmont/carousel/3.jpg"
+      },
+      {
+        "image": "images/belmont/carousel/4.jpg"
+      },
+      {
+        "image": "images/belmont/carousel/5.jpg"
+      },
+      {
+        "image": "images/belmont/carousel/6.jpg"
+      }
+    ]
+  }
+]
