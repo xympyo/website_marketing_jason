@@ -282,7 +282,7 @@ function HeroContent() {
       <div className="mt-4 flex flex-col">
         <img
           src={data[0].image4}
-          alt="The Hive"
+          alt="The Hive Houses"
           onClick={openImage4Popup}
           className="cursor-pointer"
         />
