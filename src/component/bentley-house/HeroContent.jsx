@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect, useCallback } from "react";
-import data from "../../data/belmont/data.json";
+import data from "../../data/bentley/data.json";
 
 function HeroContent() {
   const [isPopupOpen, setIsPopupOpen] = useState(false);
@@ -114,7 +114,7 @@ function HeroContent() {
         <img src={data[0].image1} alt="Belmont" />
         <div className="flex flex-col ms-8 me-8 mt-12">
           <h1 className="poppins-medium text-[#0a0a0a] text-lg md:text-2xl text-center">
-            Belmont Homes
+            Bentley Homes
           </h1>
           <p className="poppins-light text-sm md:text-lg text-center text-[#0a0a0a]">
             {data[0].deskripsi1}
@@ -142,12 +142,15 @@ function HeroContent() {
           <p className="poppins-light text-sm md:text-lg text-justify text-[#0a0a0a]">
             {data[0].deskripsi2}
           </p>
+          <p className="poppins-light text-sm md:text-lg text-left mt-2 text-[#0a0a0a]">
+            {data[0].deskripsi3}
+          </p>
         </div>
       </div>
       <div className="flex flex-col mt-12">
         <div className="ms-8 me-8 mt-4">
           <p className="poppins-bold text-lg md:text-2xl text-center text-[#0a0a0a]">
-            {data[0].deskripsi3}
+            {data[0].deskripsi4}
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
             <img
@@ -168,9 +171,9 @@ function HeroContent() {
       <div className="flex flex-col mt-12">
         <div className="flex flex-col ms-8 me-8 mt-4">
           <p className="poppins-bold text-lg md:text-2xl text-center text-[#0a0a0a]">
-            {data[0].deskripsi4}
+            {data[0].deskripsi5}
           </p>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-4">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mt-4">
             {data[0].carousel.map((item, index) => (
               <div key={index}>
                 <img className="rounded-lg" src={item.image} alt="" />

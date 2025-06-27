@@ -4,6 +4,7 @@ import HeroLayout from "./HeroLayout";
 import ParkSerpongLayout from "./ParkSerpongLayout";
 import TheHiveLayout from "./TheHiveLayout";
 import BelmontLayout from "./BelmontLayout";
+import BentleyLayout from "./BentleyLayout";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/park-serpong" element={<ParkSerpongLayout />} />
         <Route path="/the-hive" element={<TheHiveLayout />} />
         <Route path="/belmont-homes" element={<BelmontLayout />} />
+        <Route path="/bentley-homes" element={<BentleyLayout />} />
       </Routes>
     </>
   );

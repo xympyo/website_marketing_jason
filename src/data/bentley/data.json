@@ -1,0 +1,41 @@
+[
+  {
+    "image1": "images/bentley/block2.jpg",
+    "image2": "images/bentley/block31.jpg",
+    "image3": "images/bentley/block32.jpg",
+    "image4": "images/bentley/block41.jpg",
+    "image5": "images/bentley/block42.jpg",
+    "deskripsi1": "Bentley Homes menawarkan pengalaman Privilege Living di sebuah kawasan terpadu sepenuhnya, di mana segala kebutuhan Anda tersedia tepat di depan pintu. Nikmati kesempatan untuk tinggal di dekat fasilitas kelas dunia seperti Imperial Klub Golf, Sekolah Pelita Harapan (SPH), Universitas Pelita Harapan (UPH), Rumah Sakit Siloam, Hotel Aryaduta Lippo Village, Maxx Box, Citywalk Elvee, Supermal Karawaci, dan masih banyak lagi. Dikelilingi oleh taman hijau yang asri, didukung oleh sistem keamanan 24 jam, dan mudah diakses melalui jalan tol utama.",
+    "deskripsi2": "Nikmati kenyamanan dan kemewahan dalam hunian 4 kamar tidur dan 3,5 kamar mandi yang dirancang dengan elegan di kawasan paling strategis: Lippo Village Central.",
+    "deskripsi3": "Ruang tamu, ruang makan, dan dapur menyatu dalam tata ruang terbuka yang luas, menghadirkan pemandangan indah langsung ke taman belakang bergaya resor pribadi — tempat sempurna untuk bersantai, berkumpul bersama keluarga, atau menjamu tamu.",
+    "deskripsi4": "BOOKING FEE & PROPERTY VALUE",
+    "deskripsi5": "SPECIFICATION & UNIT PREVIEW",
+    "deskripsi6": "CONTACT FOR MORE",
+    "carousel": [
+      {
+        "image": "images/bentley/carousel/1.jpg"
+      },
+      {
+        "image": "images/bentley/carousel/2.jpg"
+      },
+      {
+        "image": "images/bentley/carousel/3.jpg"
+      },
+      {
+        "image": "images/bentley/carousel/4.jpg"
+      },
+      {
+        "image": "images/bentley/carousel/5.jpg"
+      },
+      {
+        "image": "images/bentley/carousel/6.jpg"
+      },
+      {
+        "image": "images/bentley/carousel/7.jpg"
+      },
+      {
+        "image": "images/bentley/carousel/8.jpg"
+      }
+    ]
+  }
+]

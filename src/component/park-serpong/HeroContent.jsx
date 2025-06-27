@@ -311,7 +311,7 @@ function HeroContent() {
           alt={ParkSerpongData[14].title}
         />
         <div className="ms-8 me-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-64 my-12 md:my-32">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-y-64 mt-12 md:mt-32">
             {ParkSerpongBronzeCarousel.map((data) => (
               <img
                 className="w-full h-fit rounded-lg"
