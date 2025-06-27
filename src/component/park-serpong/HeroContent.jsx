@@ -21,8 +21,8 @@ function HeroContent() {
         alt={ParkSerpongData[0].title}
       />
       <div className="ms-8 me-8 mt-12">
-        <h1 className="poppins-bold text-[#0a0a0a] text-lg md:text-2xl text-center">
-          TreeTops
+        <h1 className="poppins-medium text-[#0a0a0a] text-lg md:text-2xl text-center">
+          Tree Tops Livin
         </h1>
         <p className="poppins-reguler text-[#0a0a0a] text-sm md:text-lg text-center">
           {ParkSerpongData[0].deskripsi}
@@ -114,6 +114,20 @@ function HeroContent() {
           src={ParkSerpongData[3].image}
           alt={ParkSerpongData[3].title}
         />
+        <div className="ms-8 me-8 mt-12">
+          <h1 className="poppins-medium text-[#0a0a0a] text-lg md:text-2xl text-center">
+            Gold Livin
+          </h1>
+          <p className="poppins-reguler text-[#0a0a0a] text-sm md:text-lg text-center">
+            "Gold Livin" menawarkan hunian modern dua lantai dengan desain yang
+            sangat fungsional dan stylish. Keunggulannya meliputi 3 kamar tidur
+            dan 3 kamar mandi ensuite untuk privasi maksimal, powder room yang
+            praktis, serta halaman belakang yang luas dan carport untuk 2 mobil.
+            Desain interiornya menonjolkan pencahayaan alami melimpah dan gaya
+            kontemporer yang elegan, dilengkapi area hiburan khusus dan kamar
+            tidur anak dengan ranjang susun yang fungsional.
+          </p>
+        </div>
         <img
           className="w-full h-fit object-cover mt-8"
           src={ParkSerpongData[4].image}
@@ -167,6 +181,20 @@ function HeroContent() {
           src={ParkSerpongData[6].image}
           alt={ParkSerpongData[6].title}
         />
+        <div className="ms-8 me-8 mt-12">
+          <h1 className="poppins-medium text-[#0a0a0a] text-lg md:text-2xl text-center">
+            Gold Tops Livin
+          </h1>
+          <p className="poppins-reguler text-[#0a0a0a] text-sm md:text-lg text-center">
+            "Gold Tops Livin" merupakan hunian premium 3 lantai di Park Serpong
+            yang menawarkan perpaduan sempurna antara kemewahan dan
+            fungsionalitas. Dengan 4 kamar tidur dan 3 kamar mandi modern
+            (termasuk ensuite dan powder room), rumah ini sangat ideal untuk
+            keluarga besar. Keunggulannya diperkuat oleh kehadiran large
+            backyard dan balkon di lantai 3, yang memberikan koneksi kuat dengan
+            alam.
+          </p>
+        </div>
         <img
           className="w-full h-fit object-cover mt-8"
           src={ParkSerpongData[7].image}
@@ -226,6 +254,20 @@ function HeroContent() {
           src={ParkSerpongData[9].image}
           alt={ParkSerpongData[9].title}
         />
+        <div className="ms-8 me-8 mt-12">
+          <h1 className="poppins-medium text-[#0a0a0a] text-lg md:text-2xl text-center">
+            Quartz Livin
+          </h1>
+          <p className="poppins-reguler text-[#0a0a0a] text-sm md:text-lg text-center">
+            "Quartz Livin" adalah hunian 2 lantai yang dirancang cerdas dan
+            efisien, ideal untuk gaya hidup modern dan dinamis di Park Serpong.
+            Keunggulannya terletak pada desain compact namun maksimal dengan
+            dimensi 3.3 x 13 m, serta dilengkapi 2 kamar tidur dan 2 ensuite
+            bathroom untuk privasi dan kenyamanan optimal. Rumah ini menonjolkan
+            pencahayaan alami melimpah dan ventilasi baik berkat jendela besar
+            dan open plan concept.
+          </p>
+        </div>
         <img
           className="w-full h-fit object-cover mt-8"
           src={ParkSerpongData[10].image}
@@ -276,6 +318,20 @@ function HeroContent() {
           src={ParkSerpongData[12].image}
           alt={ParkSerpongData[12].title}
         />
+        <div className="ms-8 me-8 mt-12">
+          <h1 className="poppins-medium text-[#0a0a0a] text-lg md:text-2xl text-center">
+            Bronze Livin
+          </h1>
+          <p className="poppins-reguler text-[#0a0a0a] text-sm md:text-lg text-center">
+            "Bronze Livin" menawarkan hunian 2 lantai yang sangat efisien dan
+            terjangkau, ideal untuk individu atau pasangan muda. Keunggulannya
+            meliputi desain compact dengan ukuran optimal, 1 kamar tidur utama
+            dengan ensuite bathroom, serta powder room dan carport. Desain
+            interiornya modern dengan open plan concept dan pencahayaan alami
+            melimpah, sementara eksteriornya menampilkan gaya minimalis
+            kontemporer.
+          </p>
+        </div>
         <img
           className="w-full h-fit object-cover mt-8"
           src={ParkSerpongData[13].image}

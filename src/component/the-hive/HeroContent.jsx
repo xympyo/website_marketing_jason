@@ -125,11 +125,15 @@ function HeroContent() {
         alt="The Hive"
       />
       <div className="ms-8 me-8 mt-12">
-        <h1 className="poppins-bold text-[#0a0a0a] text-2xl text-center">
+        <h1 className="poppins-medium text-[#0a0a0a] text-2xl text-center">
           The Hive
         </h1>
         <p className="poppins-reguler text-[#0a0a0a] text-lg text-center">
-          Gitu Deh
+          THE HIVE adalah ruko 3 lantai inovatif dengan konsep "Multiple Key"
+          yang revolusioner. Ini memungkinkan Anda memiliki Toko (Lantai 1),
+          Kantor (Lantai 2), dan Rumah (Lantai 3) dalam satu bangunan,
+          masing-masing dengan akses, signage, dan utilitas terpisah untuk
+          privasi dan fleksibilitas maksimal.
         </p>
       </div>
       <div className="ms-8 me-8 mt-12">
