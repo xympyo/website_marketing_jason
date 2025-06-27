@@ -16,7 +16,7 @@ function HeroContent() {
   return (
     <div className="flex flex-col">
       <img
-        className="w-full h-fit object-cover"
+        className="w-full h-auto object-cover"
         src={ParkSerpongData[0].image}
         alt={ParkSerpongData[0].title}
       />
@@ -33,7 +33,7 @@ function HeroContent() {
           {ParkSerpongTypeData.map((data) => (
             <div key={data.title} className="flex flex-col justify-center">
               <img
-                className="w-3/4 self-center md:self-auto md:w-full h-fit object-cover rounded-lg"
+                className="w-3/4 self-center md:self-auto md:w-full h-auto object-cover rounded-lg"
                 src={data.image}
                 alt={data.title}
               />
@@ -90,12 +90,12 @@ function HeroContent() {
       <div>
         <div className="grid grid-cols-1">
           <img
-            className="w-full h-fit object-cover mt-8"
+            className="w-full h-auto object-cover mt-8"
             src={ParkSerpongData[1].image}
             alt={ParkSerpongData[1].title}
           />
           <img
-            className="w-full h-fit object-cover mt-8"
+            className="w-full h-auto object-cover mt-8"
             src={ParkSerpongData[2].image}
             alt={ParkSerpongData[2].title}
           />
@@ -104,7 +104,7 @@ function HeroContent() {
           <div className="grid grid-cols-1 gap-4 md:grid-cols-3 md:gap-12 my-4 mb-20 md:my-32">
             {ParkSerpongTreeTopsCarousel.map((data) => (
               <img
-                className="w-full h-fit rounded-lg"
+                className="w-full h-auto rounded-lg"
                 src={data.image}
                 alt={data.title}
               />
@@ -112,7 +112,7 @@ function HeroContent() {
           </div>
         </div>
         <img
-          className="w-full h-fit object-cover mt-8"
+          className="w-full h-auto object-cover mt-8"
           src={ParkSerpongData[3].image}
           alt={ParkSerpongData[3].title}
         />
@@ -131,7 +131,7 @@ function HeroContent() {
           </p>
         </div>
         <img
-          className="w-full h-fit object-cover mt-8"
+          className="w-full h-auto object-cover mt-8"
           src={ParkSerpongData[4].image}
           alt={ParkSerpongData[4].title}
         />
@@ -163,7 +163,7 @@ function HeroContent() {
           </div>
         </div>
         <img
-          className="w-full h-fit object-cover mt-8"
+          className="w-full h-auto object-cover mt-8"
           src={ParkSerpongData[5].image}
           alt={ParkSerpongData[5].title}
         />
@@ -171,7 +171,7 @@ function HeroContent() {
           <div className="grid grid-cols-1 gap-4 md:grid-cols-3 md:gap-12 my-4 mb-20 md:my-32">
             {ParkSerpongGoldLivingCarousel.map((data) => (
               <img
-                className="w-full h-fit rounded-lg"
+                className="w-full h-auto rounded-lg"
                 src={data.image}
                 alt={data.title}
               />
@@ -179,7 +179,7 @@ function HeroContent() {
           </div>
         </div>
         <img
-          className="w-full h-fit object-cover mt-8"
+          className="w-full h-auto object-cover mt-8"
           src={ParkSerpongData[6].image}
           alt={ParkSerpongData[6].title}
         />
@@ -198,7 +198,7 @@ function HeroContent() {
           </p>
         </div>
         <img
-          className="w-full h-fit object-cover mt-8"
+          className="w-full h-auto object-cover mt-8"
           src={ParkSerpongData[7].image}
           alt={ParkSerpongData[7].title}
         />
@@ -236,7 +236,7 @@ function HeroContent() {
           </div>
         </div>
         <img
-          className="w-full h-fit object-cover mt-8"
+          className="w-full h-auto object-cover mt-8"
           src={ParkSerpongData[8].image}
           alt={ParkSerpongData[8].title}
         />
@@ -244,7 +244,7 @@ function HeroContent() {
           <div className="grid grid-cols-1 gap-4 md:grid-cols-3 md:gap-12 my-4 mb-20 md:my-32">
             {ParkSerpongGoldTopsCarousel.map((data) => (
               <img
-                className="w-full h-fit rounded-lg"
+                className="w-full h-auto rounded-lg"
                 src={data.image}
                 alt={data.title}
               />
@@ -252,7 +252,7 @@ function HeroContent() {
           </div>
         </div>
         <img
-          className="w-full h-fit object-cover mt-8"
+          className="w-full h-auto object-cover mt-8"
           src={ParkSerpongData[9].image}
           alt={ParkSerpongData[9].title}
         />
@@ -271,7 +271,7 @@ function HeroContent() {
           </p>
         </div>
         <img
-          className="w-full h-fit object-cover mt-8"
+          className="w-full h-auto object-cover mt-8"
           src={ParkSerpongData[10].image}
           alt={ParkSerpongData[10].title}
         />
@@ -300,7 +300,7 @@ function HeroContent() {
           </div>
         </div>
         <img
-          className="w-full h-fit object-cover mt-8"
+          className="w-full h-auto object-cover mt-8"
           src={ParkSerpongData[11].image}
           alt={ParkSerpongData[11].title}
         />
@@ -308,7 +308,7 @@ function HeroContent() {
           <div className="grid grid-cols-1 gap-12 md:grid-cols-2 md:gap-64 my-12 md:my-32">
             {ParkSerpongQuartzCarousel.map((data) => (
               <img
-                className="w-full h-fit rounded-lg"
+                className="w-full h-auto rounded-lg"
                 src={data.image}
                 alt={data.title}
               />
@@ -316,7 +316,7 @@ function HeroContent() {
           </div>
         </div>
         <img
-          className="w-full h-fit object-cover mt-8"
+          className="w-full h-auto object-cover mt-8"
           src={ParkSerpongData[12].image}
           alt={ParkSerpongData[12].title}
         />
@@ -335,7 +335,7 @@ function HeroContent() {
           </p>
         </div>
         <img
-          className="w-full h-fit object-cover mt-8"
+          className="w-full h-auto object-cover mt-8"
           src={ParkSerpongData[13].image}
           alt={ParkSerpongData[13].title}
         />
@@ -364,7 +364,7 @@ function HeroContent() {
           </div>
         </div>
         <img
-          className="w-full h-fit object-cover mt-8"
+          className="w-full h-auto object-cover mt-8"
           src={ParkSerpongData[14].image}
           alt={ParkSerpongData[14].title}
         />
@@ -372,7 +372,7 @@ function HeroContent() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-y-64 mt-12 md:mt-32">
             {ParkSerpongBronzeCarousel.map((data) => (
               <img
-                className="w-full h-fit rounded-lg"
+                className="w-full h-auto rounded-lg"
                 src={data.image}
                 alt={data.title}
               />
