@@ -87,16 +87,19 @@ function Footer() {
               Park Serpong
             </p>
           </a>
+          <p>|</p>
           <a href="/the-hive">
             <p className="poppins-regular text-xs md:text-base text-[#0a0a0a]">
               THE HIVE
             </p>
           </a>
+          <p>|</p>
           <a href="/belmont-homes">
             <p className="poppins-regular text-xs md:text-base text-[#0a0a0a]">
               Belmont Homes
             </p>
           </a>
+          <p>|</p>
           <a href="/bentley-homes">
             <p className="poppins-regular text-xs md:text-base text-[#0a0a0a]">
               Bentley Homes

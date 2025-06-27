@@ -229,13 +229,6 @@ function HeroContent() {
           onClick={openImage4Popup}
           className="cursor-pointer"
         />
-        <div className="flex justify-center mt-4">
-          <a href="https://wa.me/+6287786706887" target="_blank">
-            <p className="p-2 text-[#0a0a0a] font-bold rounded-lg border-2 border-[#0a0a0a]">
-              CONTACT FOR MORE
-            </p>
-          </a>
-        </div>
       </div>
 
       {/* Image Popup */}

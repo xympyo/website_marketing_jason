@@ -119,7 +119,7 @@ function HeroContent() {
           src={ParkSerpongData[4].image}
           alt={ParkSerpongData[4].title}
         />
-        <div className="flex flex-row md:flex-col">
+        <div className="flex flex-col md:flex-row">
           <div className="flex justify-between ms-8 me-8 mt-4">
             <p className="poppins-reguler text-xs md:text-base poppins-medium text-[#0a0a0a]">
               • {a.lb}
@@ -172,7 +172,7 @@ function HeroContent() {
           src={ParkSerpongData[7].image}
           alt={ParkSerpongData[7].title}
         />
-        <div className="flex flex-row md:flex-col">
+        <div className="flex flex-col md:flex-row">
           <div className="flex justify-between ms-8 me-8 mt-4">
             <p className="poppins-reguler text-xs md:text-base poppins-medium text-[#0a0a0a]">
               • {b.lb}
@@ -231,7 +231,7 @@ function HeroContent() {
           src={ParkSerpongData[10].image}
           alt={ParkSerpongData[10].title}
         />
-        <div className="flex flex-row md:flex-col">
+        <div className="flex flex-col md:flex-row">
           <div className="flex justify-between ms-8 me-8 mt-4">
             <p className="poppins-reguler md:text-base text-xs poppins-medium text-[#0a0a0a]">
               • {c.lb}
