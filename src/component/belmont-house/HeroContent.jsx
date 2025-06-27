@@ -123,18 +123,12 @@ function HeroContent() {
       </div>
       <div className="flex flex-col mt-12">
         <div className="ms-8 me-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 gap-8">
             <img
               className="rounded-lg cursor-pointer"
               src={data[0].image2}
               alt="Belmont Homes"
               onClick={() => openImagePopup(data[0].image2)}
-            />
-            <img
-              className="rounded-lg cursor-pointer"
-              src={data[0].image3}
-              alt="Belmont Homes"
-              onClick={() => openImagePopup(data[0].image3)}
             />
           </div>
         </div>
@@ -151,13 +145,13 @@ function HeroContent() {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
             <img
-              src={data[0].image4}
+              src={data[0].image3}
               className="rounded-none md:rounded-lg cursor-pointer"
               alt="Belmont Homes"
               onClick={() => openImagePopup(data[0].image4)}
             />
             <img
-              src={data[0].image5}
+              src={data[0].image4}
               className="rounded-none md:rounded-lg cursor-pointer"
               alt="Belmont Homes"
               onClick={() => openImagePopup(data[0].image5)}
@@ -166,9 +160,20 @@ function HeroContent() {
         </div>
       </div>
       <div className="flex flex-col mt-12">
+        <p className="poppins-bold text-lg md:text-2xl text-center text-[#0a0a0a]">
+          SPECIFICATIONS
+        </p>
+        <div className="mt-4">
+          <img
+            className="cursor-pointer"
+            src={data[0].image5}
+            alt="Belmont Homes"
+            onClick={() => openImagePopup(data[0].image5)}
+          />
+        </div>
         <div className="flex flex-col ms-8 me-8 mt-4">
-          <p className="poppins-bold text-lg md:text-2xl text-center text-[#0a0a0a]">
-            {data[0].deskripsi4}
+          <p className="poppins-bold text-lg md:text-2xl text-center text-[#0a0a0a] mt-8">
+            UNIT PREVIEW
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-4">
             {data[0].carousel.map((item, index) => (
