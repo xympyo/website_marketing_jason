@@ -88,16 +88,18 @@ function HeroContent() {
         </div>
       </div>
       <div>
-        <img
-          className="w-full h-fit object-cover mt-8"
-          src={ParkSerpongData[1].image}
-          alt={ParkSerpongData[1].title}
-        />
-        <img
-          className="w-full h-fit object-cover mt-8"
-          src={ParkSerpongData[2].image}
-          alt={ParkSerpongData[2].title}
-        />
+        <div className="grid grid-cols-1">
+          <img
+            className="w-full h-fit object-cover mt-8"
+            src={ParkSerpongData[1].image}
+            alt={ParkSerpongData[1].title}
+          />
+          <img
+            className="w-full h-fit object-cover mt-8"
+            src={ParkSerpongData[2].image}
+            alt={ParkSerpongData[2].title}
+          />
+        </div>
         <div className="ms-8 me-8">
           <div className="grid grid-cols-1 gap-4 md:grid-cols-3 md:gap-12 my-4 mb-20 md:my-32">
             {ParkSerpongTreeTopsCarousel.map((data) => (
