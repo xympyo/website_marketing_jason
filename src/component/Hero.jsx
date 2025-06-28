@@ -1,5 +1,5 @@
 import React from "react";
-import block1 from "../assets/block1.png";
+import block1 from "../assets/block1.jpg";
 import HeroData from "../data/HeroData.json";
 
 function Hero() {

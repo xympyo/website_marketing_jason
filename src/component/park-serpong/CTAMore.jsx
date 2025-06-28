@@ -6,18 +6,21 @@ function CTAMore() {
       <div className="flex flex-col md:flex-row align-middle justify-center md:justify-between">
         <div className="flex md:justify-start justify-center ms-12 me-12">
           <a
-            href="https://drive.google.com/file/d/1oczmZsyEy0Wx6IWDmTWyjhMC8zz8gJjG/view"
+            href="https://wa.me/+6287786706887?text=Hai,%saya%mau%lihat%Katalog%Park%Serpong."
             target="_blank"
           >
             <p className="p-2 border-2 text-[#0a0a0a] rounded-lg poppins-bold text-base text-2lg">
-              Download Katalog
+              Katalog
             </p>
           </a>
         </div>
         <div className="flex md:justify-start justify-center mt-4 md:mt-0">
-          <a href="https://wa.me/+6287786706887" target="_blank">
+          <a
+            href="https://wa.me/+6287786706887?text=Hai,%saya%mau%lihat%rincian%Pricelist%Park%Serpong."
+            target="_blank"
+          >
             <p className="p-2 border-2 text-[#0a0a0a] rounded-lg poppins-bold text-base text-2lg">
-              CONTACT FOR MORE
+              Pricelist
             </p>
           </a>
         </div>

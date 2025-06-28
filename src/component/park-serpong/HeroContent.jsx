@@ -28,65 +28,6 @@ function HeroContent() {
           {ParkSerpongData[0].deskripsi}
         </p>
       </div>
-      <div className="ms-8 me-8 mt-12">
-        <div className="grid grid-cols-1 md:grid md:grid-cols-4 md:gap-20">
-          {ParkSerpongTypeData.map((data) => (
-            <div key={data.title} className="flex flex-col justify-center">
-              <img
-                className="w-3/4 self-center md:self-auto md:w-full h-auto object-cover rounded-lg"
-                src={data.image}
-                alt={data.title}
-              />
-              {data.type.map((typeItem, typeIndex) => (
-                <div className="flex justify-center mt-4">
-                  <ol className="poppins-reguler text-[#0a0a0a] text-sm list-disc p-0 m-0">
-                    <li
-                      key={`${typeItem.type || "unknown"}-${typeIndex}`}
-                      className="mb-1"
-                    >
-                      <p className="text-left poppins-reguler text-base md:text-base text-[#0a0a0a]">
-                        {typeItem.full}
-                      </p>
-                    </li>
-                    <li
-                      key={`${typeItem.type || "unknown"}-${typeIndex}`}
-                      className="mb-1"
-                    >
-                      <p className="text-left poppins-reguler text-base md:text-base text-[#0a0a0a]">
-                        {typeItem.lb}
-                      </p>
-                    </li>
-                    <li
-                      key={`${typeItem.type || "unknown"}-${typeIndex}`}
-                      className="mb-1"
-                    >
-                      <p className="text-left poppins-reguler text-base md:text-base text-[#0a0a0a]">
-                        {typeItem.lt}
-                      </p>
-                    </li>
-                    <li
-                      key={`${typeItem.type || "unknown"}-${typeIndex}`}
-                      className="mb-1"
-                    >
-                      <p className="text-left poppins-reguler text-base md:text-base text-[#0a0a0a]">
-                        {typeItem.a}
-                      </p>
-                    </li>
-                    <li
-                      key={`${typeItem.type || "unknown"}-${typeIndex}`}
-                      className="mb-1"
-                    >
-                      <p className="text-left poppins-reguler text-base md:text-base text-[#0a0a0a]">
-                        {typeItem.b}
-                      </p>
-                    </li>
-                  </ol>
-                </div>
-              ))}
-            </div>
-          ))}
-        </div>
-      </div>
       <div>
         <div className="grid grid-cols-1">
           <img
