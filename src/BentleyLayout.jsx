@@ -12,6 +12,7 @@ function BentleyLayout() {
     <div>
       <Hero />
       <Header />
+      <CTAMore />
       <HeroContent />
       <CTAMore />
       <Maps />

@@ -12,6 +12,7 @@ function TheHiveLayout() {
     <div>
       <Header />
       <Hero />
+      <CTAMore />
       <HeroContent />
       <CTAMore />
       <Maps />

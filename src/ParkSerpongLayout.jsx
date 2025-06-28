@@ -12,6 +12,7 @@ function ParkSerpongLayout() {
     <div>
       <Header />
       <Hero />
+      <CTAMore />
       <HeroContent />
       <CTAMore />
       <Maps />

@@ -2,7 +2,7 @@ import React from "react";
 
 function CTAMore() {
   return (
-    <div className="ms-8 me-8 mt-12">
+    <div className="ms-8 me-8 mt-12 mb-12">
       <div className="flex flex-col md:flex-row align-middle justify-center md:justify-between">
         <div className="flex md:justify-start justify-center ms-12 me-12">
           <a
