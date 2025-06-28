@@ -160,17 +160,6 @@ function HeroContent() {
         </div>
       </div>
       <div className="flex flex-col mt-12">
-        <p className="poppins-bold text-lg md:text-2xl text-center text-[#0a0a0a]">
-          SPECIFICATIONS
-        </p>
-        <div className="mt-4">
-          <img
-            className="cursor-pointer"
-            src={data[0].image5}
-            alt="Belmont Homes"
-            onClick={() => openImagePopup(data[0].image5)}
-          />
-        </div>
         <div className="flex flex-col ms-8 me-8 mt-4">
           <p className="poppins-bold text-lg md:text-2xl text-center text-[#0a0a0a] mt-8">
             UNIT PREVIEW

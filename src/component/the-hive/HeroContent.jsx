@@ -21,12 +21,6 @@ function HeroContent() {
     setIsImage3Clicked(!isImage3Clicked);
   };
 
-  const openImage4Popup = () => {
-    setIsImage4PopupOpen(true);
-    setZoomLevel(1); // Reset zoom when opening
-    setPan({ x: 0, y: 0 }); // Reset pan when opening
-  };
-
   const closeImage4Popup = () => {
     setIsImage4PopupOpen(false);
   };
@@ -274,20 +268,6 @@ function HeroContent() {
           </div>
         </div>
       </div>
-      <div className="flex ms-8 me-8 justify-center mt-8">
-        <h1 className="poppins-bold text-[#0a0a0a] text-base md:text-2xl">
-          Specifications
-        </h1>
-      </div>
-      <div className="mt-4 flex flex-col">
-        <img
-          src={data[0].image4}
-          alt="The Hive Houses"
-          onClick={openImage4Popup}
-          className="cursor-pointer"
-        />
-      </div>
-
       {/* Image Popup */}
       {isImage4PopupOpen && (
         <div
