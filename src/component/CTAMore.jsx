@@ -6,11 +6,11 @@ function CTAMore() {
       <div className="flex flex-row align-middle justify-center">
         <div className="flex md:justify-start justify-center ms-12 me-12">
           <a
-            href="https://wa.me/+6287786706887?text=Hai,%saya%mau%lihat%Katalog%Bentley%House."
+            href="https://wa.me/+6287786706887?text=Hai Lita, berikan saya info mengenai properti dari Lippo Karawaci."
             target="_blank"
           >
             <p className="p-2 border-2 text-[#0a0a0a] rounded-lg poppins-bold text-base text-2lg">
-              Download Katalog
+              Contact Me
             </p>
           </a>
         </div>
